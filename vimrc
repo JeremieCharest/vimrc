@@ -5,6 +5,7 @@ set encoding=utf-8
 set termencoding=utf-8
 
 set tabstop=4
+set expandtab
 "set spell
 set ruler
 set textwidth=80
