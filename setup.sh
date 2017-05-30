@@ -29,3 +29,4 @@ git clone https://github.com/vim-airline/vim-airline ${bundle_dir}/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ${bundle_dir}/vim-airline-themes
 git clone https://github.com/nanotech/jellybeans.vim.git ${bundle_dir}/jellybeans-theme
 
+cp yaml.vim ~/.vim/

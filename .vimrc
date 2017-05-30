@@ -84,6 +84,9 @@ let g:gitgutter_highlight_lines = 0
 nmap <silent> <F8> :TagbarToggle<CR>
 nmap <silent> <F2> :NERDTreeToggle<CR>
 
+" disable autoindent when pasting 
+set pastetoggle=<F3>
+
 " navigate in splits
 "nnoremap <C-J> <C-W><C-J>
 "nnoremap <C-K> <C-W><C-K>
