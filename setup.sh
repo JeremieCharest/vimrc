@@ -6,6 +6,8 @@
 ## - status bar : airline
 ## - status bar theme : wombat
 
+cp vimrc ~/.vimrc
+
 bundle_dir=~/.vim/bundle
 
 mkdir -p ~/.vim/
