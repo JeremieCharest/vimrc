@@ -14,8 +14,7 @@ mkdir -p ~/.vim/
 
 # pathogen plugin manager
 mkdir -p ~/.vim/autoload ${bundle_dir}
-curl -LSso ~/.vim/autoload/pathogen.vim
-https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+curl -LSso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 
 # plugins
