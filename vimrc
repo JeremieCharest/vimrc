@@ -6,11 +6,13 @@ set termencoding=utf-8
 
 set tabstop=4
 set expandtab
-"set spell
 set ruler
 set textwidth=80
 set colorcolumn=+1
 set cursorline
+
+" enable spell checking
+:set spell spelllang=en_us
 
 " enable pathogen
 call pathogen#infect()
@@ -84,6 +86,7 @@ let g:gitgutter_highlight_lines = 0
 
 nmap <silent> <F8> :TagbarToggle<CR>
 nmap <silent> <F2> :NERDTreeToggle<CR>
+:map <F4> :setlocal spell! spelllang=en_us<CR>
 
 " disable autoindent when pasting 
 set pastetoggle=<F3>
